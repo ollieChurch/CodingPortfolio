@@ -1,8 +1,9 @@
-import { Link, useRouteMatch } from 'react-router-dom'
+// import { Link, useRouteMatch } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import './featuredCard.css'
 
 function FeaturedCard() {
-    let { url } = useRouteMatch()
+    // let { url } = useRouteMatch()
 
     return (
         <div className='articles-featuredCard'>
