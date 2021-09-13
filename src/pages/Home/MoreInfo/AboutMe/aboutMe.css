@@ -1,0 +1,14 @@
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.aboutMe-img {
+    height: 25vh;
+    align-self: center;
+}
+
+.aboutMe-text {
+    font-size: 1rem;
+}

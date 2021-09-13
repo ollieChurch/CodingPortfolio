@@ -1,0 +1,29 @@
+.articles-pageContainer {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-articles {
+    background: var(--blue);
+}
+
+.footer-articles {
+    text-align: center;
+    padding: .5em;
+}
+
+.footer-articles>p {
+    margin: 0;
+    opacity: .5;
+}
+
+.main-articles {
+    display: grid;
+    grid-template-columns: auto 350px;
+    grid-gap: 2em;
+    margin: 2em 1em 1em;
+    max-width: 1000px;
+    align-self: center;
+}

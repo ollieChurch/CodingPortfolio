@@ -1,0 +1,20 @@
+.codeButtons-container {
+    grid-area: code;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.portfolio-btn {
+    padding: .5em 1em;
+    font-size: 1.25rem;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+    background: var(--pink);
+    color: white;
+}

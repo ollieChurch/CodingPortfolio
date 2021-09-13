@@ -1,0 +1,36 @@
+.header-articles {
+    background: var(--blue);
+    padding: 1em;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.header-title {
+    width: 50%;
+    align-items: flex-end;
+    cursor: pointer;
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-title * {
+    margin: 0;
+}
+
+.header-title>h1 {
+    font-size: 3rem;
+}
+
+.header-title>p {
+    font-size: 1.5em;
+}
+
+.header-content>nav {
+    align-items: flex-end;
+}

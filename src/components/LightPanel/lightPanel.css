@@ -1,0 +1,10 @@
+.lightPanel {
+    background-color: rgba(240, 245, 235, 1);
+    padding: 2em;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.lightPanel-darkSection {
+    background-color: rgba(255, 248, 220, .5);
+}

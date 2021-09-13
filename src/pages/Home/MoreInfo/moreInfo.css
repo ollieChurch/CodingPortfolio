@@ -1,0 +1,16 @@
+.moreInfo-content {
+    width: 100%;
+    height: 100%;
+}
+
+.moreInfo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 90%;
+    padding: 2em;
+    grid-gap: 3em;
+}
+
+.moreInfo-title {
+    font-size: 1.5rem;
+}

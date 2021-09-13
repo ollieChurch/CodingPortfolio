@@ -1,0 +1,33 @@
+.actionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-Content: center;
+    transform: translateY(150%);
+    animation: rise 2s ease-out 4s forwards;
+    height: fit-content;
+    font-size: 1.5rem;
+    color: var(--pink);
+    text-decoration: unset;
+}
+
+.callToScroll-column {
+    margin-bottom: -.5em;
+}
+
+@keyframes rise {
+    to {
+        transform: translateY(0);
+    }
+}
+
+.downArrow {
+    animation: bounce .5s alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    to {
+        transform: translateY(-15%);
+    }
+}

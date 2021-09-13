@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --pink: #FF5678;
+  --blue: #8db8b5;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html { 
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Walter Turncoat', cursive;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #E2F1FA;
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+section {
+    width: 100%;
+    min-height: 100vh;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    scroll-snap-align: start;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-dark {
+  background: var(--blue);
+}
+
+.section-dark> * .callToScroll {
+  color: black;
+}
+
+.content {
+  max-width: 1500px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+.dropFont {
+  font-family: 'Open Sans', sans-serif;
+}
+
+button {
+  border: unset;
+  font-family: inherit;
+  cursor: pointer;
+}
+
+.highlight-pink {
+  color: var(--pink);
+  text-shadow: 0 0 2px black;
+  letter-spacing: .1em;
+}
+
+.greeting-route {
+  stroke-dasharray: 10000;
+  stroke-dashoffset: 10000;
+  animation: dash 20s linear forwards;
+  width: 100%;
+  height: 105%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -10;
+  opacity: .15;
+  transform: scale(1.45);
+}
+
+@keyframes dash {
+  to {
+      stroke-dashoffset: 0;
+  }
 }

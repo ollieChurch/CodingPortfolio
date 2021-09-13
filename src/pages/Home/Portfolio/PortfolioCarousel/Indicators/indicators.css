@@ -1,0 +1,16 @@
+.portfolio-controls-indicator {
+    flex-direction: row;
+}
+
+.singleIndicator {
+    height: 20px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin: .5em;
+
+}
+
+.currentIndicator {
+    background: black;
+}
