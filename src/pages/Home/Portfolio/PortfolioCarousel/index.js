@@ -21,7 +21,6 @@ function PortfolioCarousel() {
                 return currentItem < numberOfItems - 1 ? prevItem + 1 : 0
             })
         } else if (action === 'LEFT') {
-
             setCurrentItem(prevItem => {
                 return currentItem > 0 ? prevItem - 1 : numberOfItems - 1
             })

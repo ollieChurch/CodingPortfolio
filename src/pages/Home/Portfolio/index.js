@@ -7,7 +7,6 @@ function Portfolio() {
         <section className='portfolio-container section-dark' id='portfolioSection'>
             <div className='content portfolio-content'>
                 <PortfolioCarousel />
-                
                 <CallToScroll nextSection='moreInfoSection'>
                     <p>Find Out About <span className='highlight-pink'>Me</span></p>
                 </CallToScroll>

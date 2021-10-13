@@ -1,10 +1,7 @@
-// import { Link, useRouteMatch } from 'react-router-dom'
 import { Link } from 'react-router-dom'
 import './featuredCard.css'
 
 function FeaturedCard() {
-    // let { url } = useRouteMatch()
-
     return (
         <div className='articles-featuredCard'>
             <img className='featuredCard-img' src={'https://picsum.photos/200/300'} alt='' />
