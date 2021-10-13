@@ -1,9 +1,28 @@
+import './contact.css'
+import cv from '../../../assets/files/cvFirstDraft.pdf'
+
 import CallToScroll from '../../../components/CallToScroll'
 import LightPanel from '../../../components/LightPanel'
-import './contact.css'
 import ContactForm from './ContactForm'
 
 function Contact() {
+    const linksArr = [
+        {
+            text: 'CV',
+            logo: 'far fa-id-badge',
+            open: cv 
+        },
+        {
+            text: 'LinkedIn',
+            logo: 'fab fa-linkedin',
+            open: 'https://www.linkedin.com/in/ollieChurch/'
+        },
+        {
+            text: 'GitHub',
+            logo: 'fab fa-github',
+            open: 'https://www.github.com/ollieChurch' 
+        },
+    ]
     return (
         <section className='contact-container section-dark' id='contactSection'>
             <div className='content contact-content'>
@@ -17,22 +36,22 @@ function Contact() {
                         </p>
 
                         <div className='contactLinks-container'>
-                            <button className='contactLink'>
-                                <i className="far fa-id-badge"></i>
-                                <p>CV</p>
-                            </button>
-                            <button className='contactLink'>
-                                <i className="fab fa-linkedin"></i>
-                                <p>LinkedIn</p>
-                            </button>
-                            <button className='contactLink contactLink-last'>
-                                <i className="fab fa-github"></i>
-                                <p>GitHub</p>
-                            </button>
+                            {linksArr.map((link, index) => {
+                                return (
+                                    <button 
+                                        className='contactLink'
+                                        key={index}
+                                        onClick={() => window.open(link.open)}
+                                    >
+                                        <i className={link.logo}></i>
+                                        <p>{link.text}</p>
+                                    </button>
+                                )
+                            })}
                         </div>
                         
                         <CallToScroll scrollUp nextSection='greetingSection'>
-                            <p>Back To The <span className='highlight-pink'>Top</span></p>
+                            <p>Back To <span className='highlight-pink'>Top</span></p>
                         </CallToScroll>
                     </div>
 
