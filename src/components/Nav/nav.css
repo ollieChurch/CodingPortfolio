@@ -7,8 +7,9 @@ nav {
 .nav-link {
     text-decoration: unset;
     color: rgba(0, 0, 0, .75);
-    margin: 0 1em;
+    margin-left: 2em;
     font-size: 1.1em;
+    text-align: right;
 }
 
 .nav-link:hover {

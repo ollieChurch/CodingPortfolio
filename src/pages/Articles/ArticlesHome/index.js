@@ -3,14 +3,14 @@ import ArticleSideBar from "../ArticleSideBar";
 
 function ArticlesHome() {
     return (
-        <>
+        <div className='articles-home'>
             <div className='articles-recent'>
-                <ArticleCard />
+                <ArticleCard topic='codingjourney'/>
                 <ArticleCard />  
             </div>
 
             <ArticleSideBar />
-        </>
+        </div>
     )
 }
 

@@ -1,0 +1,43 @@
+.article-content {
+    max-width: 1000px;
+    background: rgba(240, 245, 235, 1);
+    outline: 1px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.article-content-textContainer {
+    padding: 0 1em;
+}
+
+.article-img {
+    max-width: 40%;
+    border-radius: 5px;
+}
+
+.article-img-left {
+    float: left;
+    margin-right: 1em;
+}
+
+.article-img-right {
+    float: right;
+    margin-left: 1em;
+}
+
+.article-content-textContainer > h2 {
+    font-size: 2rem;
+}
+
+.article-content-textContainer > p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.article-content > :first-child {
+    margin-bottom: 1em;
+}
+
+.article-content > :last-child {
+    margin-top: 2em;
+    margin-bottom: -.5em;
+}

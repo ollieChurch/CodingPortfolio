@@ -1,11 +1,15 @@
 import { useParams } from 'react-router-dom'
+import articleData from './articles/articleData'
+import './articlePost.css'
 
 function ArticlePost() {
     let { topicId } = useParams()
-    console.log(topicId)
+    const { component } = articleData.[topicId]
 
     return (
-        <h2>This is article {topicId}</h2>
+        <div>
+            {component}
+        </div>
     )
 }
 

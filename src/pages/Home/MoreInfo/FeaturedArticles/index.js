@@ -7,7 +7,7 @@ function FeaturedArticles() {
             <h3 className='moreInfo-title'>
                 Featured Articles <i className="far fa-newspaper"></i>
                 <div className='moreInfo-cardContainer'>
-                    <FeaturedCard />
+                    <FeaturedCard topic='codingjourney' />
                     <FeaturedCard />
                 </div>
             </h3>

@@ -1,0 +1,19 @@
+.bannerImg {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.bannerImg-top {
+    object-position: top;
+    border-bottom: 1px solid gray;
+}
+
+.bannerImg-bottom {
+    object-position: bottom;
+    border-top: 1px solid gray;
+}
+
+.bannerImg-center {
+    object-position: center;
+}

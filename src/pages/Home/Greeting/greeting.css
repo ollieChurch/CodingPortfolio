@@ -5,7 +5,9 @@
     justify-content: space-around;
 }
 
-
+.greeting-container > nav {
+    margin-right: 2em;
+}
 
 .greeting-content {
     display: flex;
