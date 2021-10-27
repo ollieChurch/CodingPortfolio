@@ -4,7 +4,6 @@ import './articles.css'
 import ArticlesHeader from './ArticlesHeader'
 import ArticlesHome from './ArticlesHome'
 import ArticlePost from './ArticlePost'
-import GreetingRoute from '../../assets/images/svg/GreetingRoute'
 
 function Articles() {
     let { path } = useRouteMatch(); 
