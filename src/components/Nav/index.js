@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import './nav.css'
-import cv from '../../assets/files/cvFirstDraft.pdf'
+import cv from '../../assets/files/cv.pdf'
 
 function Nav({addHome=false}) {
     return(

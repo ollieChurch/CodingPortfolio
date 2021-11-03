@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './contact.css'
-import cv from '../../../assets/files/cvFirstDraft.pdf'
+import cv from '../../../assets/files/cv.pdf'
 
 import CallToScroll from '../../../components/CallToScroll'
 import LightPanel from '../../../components/LightPanel'
@@ -26,6 +26,7 @@ function Contact() {
             open: 'https://www.github.com/ollieChurch' 
         },
     ]
+    
     return (
         <section className='contact-container section-dark' id='contactSection'>
             <div className='content contact-content'>
