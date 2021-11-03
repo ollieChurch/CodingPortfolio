@@ -10,7 +10,6 @@ import radio1 from '../../../../assets/images/jpg/gamePrototype1.jpg'
 import radio2 from '../../../../assets/images/jpg/gamePrototype2.jpg'
 import radio3 from '../../../../assets/images/jpg/gamePrototype3.jpg'
 
-
 const placeholder1 = 'https://picsum.photos/200/300'
 const placeholder2 = 'https://picsum.photos/400/200'
 const placeholder3 = 'https://picsum.photos/500/500'
@@ -60,8 +59,8 @@ const portfolioData = [
             }
         ],
         links: {
-            site: 'https://maxwelldemo.netlify.app', 
-            code: 'https://github.com/olliechurch' // UPDATE LINK
+            site: 'https://mysteries-demo.co.uk/', 
+            code: 'https://github.com/ollieChurch/MaxwellMysteriesDemo'
         }
     },
     {
@@ -164,7 +163,7 @@ const portfolioData = [
             }
         ],
         links: {
-            site: 'https://isobellepippin.netlify.app', // UPDATE LINK
+            site: 'https://escaperadio.netlify.app/', // UPDATE LINK
             code: 'https://github.com/ollieChurch' // UPDATE LINK
         }
     },
