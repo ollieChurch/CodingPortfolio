@@ -1,11 +1,14 @@
+import { useState } from 'react'
 import './contact.css'
 import cv from '../../../assets/files/cvFirstDraft.pdf'
 
 import CallToScroll from '../../../components/CallToScroll'
 import LightPanel from '../../../components/LightPanel'
 import ContactForm from './ContactForm'
+import ContactSuccess from './ContactSuccess'
 
 function Contact() {
+    const [formSubmitted, setFormSubmitted] = useState(false)
     const linksArr = [
         {
             text: 'CV',
@@ -56,7 +59,7 @@ function Contact() {
                     </div>
 
                     <div className='contactForm-container'>
-                        <ContactForm />
+                        {formSubmitted ? <ContactSuccess /> : <ContactForm setFormSubmitted={setFormSubmitted} />}
                     </div>
                 </LightPanel>                
             </div>

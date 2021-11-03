@@ -1,56 +1,100 @@
 import { useState } from 'react'
 import './contactForm.css'
 
-function ContactForm() {
-    const [name, setName] = useState('')
-    const [email, setEmail] = useState('')
-    const [message, setMessage] = useState('')
+function ContactForm({setFormSubmitted}) {
+    const [formInput, setFormInput] = useState({
+        honey: '',
+        name: '',
+        email: '',
+        message: ''
+    }) 
+
+    function handleChange(e) {
+        const {name, value} = e.target
+        console.log(e.target.name)
+        setFormInput(prevData => {
+            return {
+                ...prevData,
+                [name]: value
+            }
+        })
+    }
+
+    console.log(formInput)
+
+    function encode(data) {
+        return Object.keys(data)
+            .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+            .join("&");
+    }
 
     function handleSubmit(event) {
         event.preventDefault()
-        console.log(name)
-        console.log(email)
-        console.log(message)
+        const {name, email, message} = formInput
+        if (name && email && message) {
+            fetch('/', {
+                method: 'POST',
+                headers: { "Content-Type": "application/x-www-form-urlencoded" },
+                body: encode({'form-name': 'contact', ...formInput})
+            })
+                .then(() => {
+                    console.log('Form successfully submitted')
+                    setFormSubmitted(true)
+                })
+                .catch((error) => alert(error))
+        }
     }
 
     return (
-        <form className='contactForm'>
+        <form 
+            className='contactForm contact-formContainer'
+            onSubmit={handleSubmit}
+        >
+            <div hidden aria-hidden="true">
                 <label>
-                    Your Name:
-                    <input 
-                        type='text' 
-                        id='contactForm-name' 
-                        className='contactForm-input' 
-                        value={name} 
-                        onChange={ (e) => setName(e.target.value) }
-                    />
+                    Don’t fill this out if you're human: 
+                    <input name="honey" value={formInput.honey} onChange={e => handleChange(e)}/>
                 </label>
+            </div>
 
-                <label>
-                    Your Email:
-                    <input 
-                        type='email' 
-                        id='contactForm-email' 
-                        className='contactForm-input' 
-                        value={email} 
-                        onChange={ (e) => setEmail(e.target.value) }
-                    />
-                </label>
-            
-                <label className='contactForm-msgContainer'>
-                    Your Message:
-                    <textarea 
-                        id='contactForm-msg' 
-                        className='contactForm-input' 
-                        value={message} 
-                        onChange={ (e) => setMessage(e.target.value) }
-                    />
-                </label>
+            <label>
+                Your Name:
+                <input 
+                    type='text' 
+                    id='contactForm-name' 
+                    name='name'
+                    className='contactForm-input' 
+                    value={formInput.name} 
+                    onChange={ e => handleChange(e) }
+                />
+            </label>
+
+            <label>
+                Your Email:
+                <input 
+                    type='email' 
+                    id='contactForm-email' 
+                    name='email'
+                    className='contactForm-input' 
+                    value={formInput.email} 
+                    onChange={ e => handleChange(e) }
+                />
+            </label>
+        
+            <label className='contactForm-msgContainer'>
+                Your Message:
+                <textarea 
+                    id='contactForm-msg' 
+                    name='message'
+                    className='contactForm-input' 
+                    value={formInput.message} 
+                    onChange={ e => handleChange(e) }
+                />
+            </label>
 
             <button 
                 type='submit' 
                 className='contactForm-btn'
-                onClick={handleSubmit}
             >
                 Send
             </button>
