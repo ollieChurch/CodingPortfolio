@@ -3,7 +3,6 @@ import './contactForm.css'
 
 function ContactForm({setFormSubmitted}) {
     const [formInput, setFormInput] = useState({
-        honey: '',
         name: '',
         email: '',
         message: ''
@@ -30,8 +29,8 @@ function ContactForm({setFormSubmitted}) {
 
     function handleSubmit(event) {
         event.preventDefault()
-        const {name, email, message} = formInput
-        if (name && email && message) {
+        const {name, email, message, honey} = formInput
+        // if (name && email && message && !honey) {
             fetch('/', {
                 method: 'POST',
                 headers: { "Content-Type": "application/x-www-form-urlencoded" },
@@ -42,7 +41,7 @@ function ContactForm({setFormSubmitted}) {
                     setFormSubmitted(true)
                 })
                 .catch((error) => alert(error))
-        }
+        // }
     }
 
     return (
@@ -50,10 +49,11 @@ function ContactForm({setFormSubmitted}) {
             className='contactForm contact-formContainer'
             onSubmit={handleSubmit}
         >
+            <input type="hidden" name="form-name" value="contact" />.
             <div hidden aria-hidden="true">
                 <label>
                     Don’t fill this out if you're human: 
-                    <input name="honey" value={formInput.honey} onChange={e => handleChange(e)}/>
+                    <input name="honey" />
                 </label>
             </div>
 
