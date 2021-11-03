@@ -29,7 +29,7 @@ function ContactForm({setFormSubmitted}) {
 
     function handleSubmit(event) {
         event.preventDefault()
-        const {name, email, message, honey} = formInput
+        // const {name, email, message, honey} = formInput
         // if (name && email && message && !honey) {
             fetch('/', {
                 method: 'POST',
