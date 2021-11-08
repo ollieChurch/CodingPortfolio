@@ -1,6 +1,7 @@
 :root {
   --pink: #FF5678;
   --blue: #8db8b5;
+  --green: #c6d9c9;
 }
 
 html { 
@@ -62,6 +63,11 @@ button {
   border: unset;
   font-family: inherit;
   cursor: pointer;
+  box-shadow: 1px 1px 5px black;
+}
+
+.transparentButton {
+  box-shadow: unset;
 }
 
 .highlight-pink {

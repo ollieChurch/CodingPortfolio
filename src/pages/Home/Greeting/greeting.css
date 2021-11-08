@@ -69,4 +69,22 @@
     to { opacity: 1; }
 }
 
+@media(max-width: 1130px) {
+    .greeting-content {
+        flex-direction: column;
+    }
+
+    .greeting-textContainer {
+        margin-left: 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .greeting-img {
+        height: 50vh;
+    }
+}
 

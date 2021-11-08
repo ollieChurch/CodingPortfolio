@@ -1,12 +1,13 @@
 import { useState } from 'react'
+import './portfolioCarousel.css'
 
 import ImageGallery from "./ImageGallery";
-import CodeButtons from "./CodeButtons";
+import CodeButtons from "../CodeButtons";
 import TasterText from "./TasterText";
 import TechAndTags from "./TechAndTags";
 import LightPanel from "../../../../components/LightPanel";
 
-import portfolioData from "./portfolioData";
+import portfolioData from "../portfolioData";
 import Indicators from './Indicators';
 
 function PortfolioCarousel() {
@@ -30,7 +31,10 @@ function PortfolioCarousel() {
     return (
         <div className='portfolio-grid'>
             <div className='portfolio-controls portfolio-controls-left'>
-                <button onClick={(e) => handleClick('LEFT', e.target)}>
+                <button 
+                    className='transparentButton'
+                    onClick={(e) => handleClick('LEFT', e.target)}
+                >
                     This Way! <br />
                 <i  className="far fa-hand-point-left"></i>
                 </button>
@@ -51,7 +55,10 @@ function PortfolioCarousel() {
             
             <Indicators quantity={portfolioData.length} currentItem={currentItem}/>
             <div className='portfolio-controls portfolio-controls-right'>
-                <button onClick={(e) => handleClick('RIGHT', e.target)}>
+                <button 
+                    className='transparentButton' 
+                    onClick={(e) => handleClick('RIGHT', e.target)}
+                >
                     That Way!<br />
                     <i className="far fa-hand-point-right"></i>
                 </button>

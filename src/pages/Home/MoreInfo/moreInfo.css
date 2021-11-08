@@ -14,3 +14,9 @@
 .moreInfo-title {
     font-size: 1.5rem;
 }
+
+@media(max-width: 875px) {
+    .moreInfo-grid {
+        grid-template-columns: 1fr;
+    }
+}

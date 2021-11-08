@@ -18,3 +18,17 @@
     background: var(--pink);
     color: white;
 }
+
+@media(max-width: 1000px) {
+    .codeButtons-container {
+        flex-direction: column;
+    }
+
+    .portfolio-btn {
+        width: 100%;
+    }
+
+    .portfolio-btn:first-of-type {
+        margin-bottom: 1em;
+    }
+}
