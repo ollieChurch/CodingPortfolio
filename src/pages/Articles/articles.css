@@ -1,5 +1,7 @@
 .articles-pageContainer {
     min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -7,11 +9,8 @@
 
 .footer-articles {
     background: var(--blue);
-}
-
-.footer-articles {
     text-align: center;
-    padding: .5em;
+    padding: 2em;
 }
 
 .footer-articles>p {
@@ -30,4 +29,10 @@
     grid-gap: 2em;
     grid-template-columns: auto 350px;
     max-width: 1000px;
+}
+
+@media(max-width: 700px) {
+    .articles-home {
+        grid-template-columns: 1fr;
+    }
 }

@@ -23,16 +23,16 @@ body * {
 
 section {
     width: 100%;
-    min-height: 100vh;
     position: relative;
-    padding: 0;
+    padding: 2em 2em 0 2em;
     margin: 0;
     overflow: hidden;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     scroll-snap-align: start;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -68,6 +68,7 @@ button {
 
 .transparentButton {
   box-shadow: unset;
+  background: none;
 }
 
 .highlight-pink {

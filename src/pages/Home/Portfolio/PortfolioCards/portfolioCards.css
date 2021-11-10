@@ -14,6 +14,7 @@
     justify-content: space-between;
     align-items: center;
     box-shadow: 1px 1px 10px black;
+    margin-bottom: 1em;
 }
 
 .projectCard-header,

@@ -1,4 +1,7 @@
+import { useEffect, useState } from 'react'
 import './greeting.css'
+
+import useWindowSize from '../../../hooks/useWindowSize'
 
 import SelfieDoodle from "../../../assets/images/svg/SelfieDoodle"
 import GreetingRoute from '../../../assets/images/svg/GreetingRoute'
@@ -6,9 +9,16 @@ import CallToScroll from '../../../components/CallToScroll'
 import Nav from '../../../components/Nav'
 
 function Greeting() {
+    const [useGreetingRoute, setUseGreetingRoute] = useState(true)
+    const {windowSize} = useWindowSize()
+
+    useEffect(() => {
+        windowSize.width >= 600 ? setUseGreetingRoute(true) : setUseGreetingRoute(false)
+    }, [windowSize])
+
     return (
         <section className='greeting-container' id='greetingSection'>
-            <GreetingRoute />
+            {useGreetingRoute && <GreetingRoute />}
             <Nav />
             <div className='content greeting-content'>
                 <SelfieDoodle />

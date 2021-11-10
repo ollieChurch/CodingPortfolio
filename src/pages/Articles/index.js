@@ -6,7 +6,7 @@ import ArticlesHome from './ArticlesHome'
 import ArticlePost from './ArticlePost'
 
 function Articles() {
-    let { path } = useRouteMatch(); 
+    let { path } = useRouteMatch()
 
     return (
         <div className='articles-pageContainer'>
