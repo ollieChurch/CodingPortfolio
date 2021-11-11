@@ -41,3 +41,16 @@
     margin-top: 2em;
     margin-bottom: -.5em;
 }
+
+@media(max-width: 850px) {
+    .article-img-right,
+    .article-img-left {
+        float: unset;
+    }
+
+    .article-img {
+        max-width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+}

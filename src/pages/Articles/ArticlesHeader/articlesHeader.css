@@ -31,3 +31,9 @@
     font-size: 1.5em;
 }
 
+@media(max-width: 725px) {
+    .header-title {
+        width: 100%;
+    }
+}
+

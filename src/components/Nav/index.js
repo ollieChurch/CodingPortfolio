@@ -52,7 +52,7 @@ function Nav({addHome=false}) {
             >
                 LinkedIn
             </a>
-            <a href='/#contactSection' className='nav-link'>Contact</a>
+            <a href='/#contactSection' className='nav-link' onClick={toggleMenu}>Contact</a>
         </nav>
     )
 }

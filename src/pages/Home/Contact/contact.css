@@ -48,6 +48,7 @@
 .contactLink {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
     width: 100%;
     align-items: center;
     font-size: 1.5rem;
@@ -66,12 +67,12 @@
 
 .contactLink>i {
     font-size: 2em;
-    text-align: center;
+    text-align: right;
 }
 
 .contactLink>p {
     margin: 0;
-    text-align: center;
+    text-align: left;
 }
 
 .contact-formContainer {
@@ -117,7 +118,6 @@
     .contactLink {
         width: fit-content;
         text-align: left;
-        min-width: 150px;
         margin: .5em 1em;
         box-shadow: unset;
     }
@@ -138,6 +138,10 @@
 @media(max-width: 875px) {
     .contact-content {
         width: 100%;
+    }
+
+    .contactLink {
+        grid-gap: 1em;
     }
 }
 

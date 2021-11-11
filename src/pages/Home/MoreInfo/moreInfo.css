@@ -6,8 +6,6 @@
 .moreInfo-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    height: 90%;
-    padding: 2em;
     grid-gap: 3em;
 }
 
@@ -18,5 +16,15 @@
 @media(max-width: 875px) {
     .moreInfo-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+@media(max-width: 345px) {
+    .moreInfo-content {
+        width: 105vw;
+    }
+
+    .moreInfo-grid {
+        grid-gap: 0.5em;
     }
 }
