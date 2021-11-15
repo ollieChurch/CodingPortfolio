@@ -10,6 +10,7 @@
     color: var(--pink);
     text-decoration: unset;
     text-align: center;
+    margin-top: 1em;
 }
 
 .callToScroll-column {
