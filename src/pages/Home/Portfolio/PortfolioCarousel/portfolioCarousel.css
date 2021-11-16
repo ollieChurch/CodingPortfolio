@@ -1,8 +1,9 @@
 .portfolio-grid {
     display: grid;
     width: 100%;
+    min-height: 500px;
     height: 85vh;
-    max-height: 800px;
+    max-height: 700px;
     grid-template-rows: 95% 5%;
     grid-template-columns: 90px auto 90px;
     grid-gap: .5em;
@@ -16,15 +17,16 @@
     width: 100%;
     height: 100%;
     border-top: 8px solid var(--pink) !important;
-    grid-gap: 1em;
+    grid-gap: 1em 2em;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 80% auto;
+    grid-template-rows: 10% 60% auto;
     grid-template-areas: 
+        'gall titl'
         'gall text'
         'tags code';
 }
 
-.tasterText-container { grid-area: text; }
+.tasterText-body { grid-area: text; }
 .gallery-container { grid-area: gall; }
 .techAndTags-container { grid-area: tags; }
 .portfolio-controls-left { grid-area: left; }

@@ -45,9 +45,9 @@ function PortfolioCarousel() {
                     images={portfolioData[currentItem].images}
                     currentItem={currentItem}
                 />
+                <h2 className='tasterText-title'>{portfolioData[currentItem].name}</h2>
                 <TasterText 
                     text={portfolioData[currentItem].text}
-                    name={portfolioData[currentItem].name}
                 />
                 <CodeButtons links={portfolioData[currentItem].links}/>
                 <TechAndTags tags={portfolioData[currentItem].tags}/>

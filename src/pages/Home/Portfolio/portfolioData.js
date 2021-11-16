@@ -18,9 +18,9 @@ const portfolioData = [
     {
         name: 'Maxwell Mysteries',
         text: [
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis nibh vitae lectus dignissim eleifend eu at libero. Etiam pretium sit amet nisi id ultricies. Sed posuere nec lorem vitae eleifend. Proin non dui at dolor placerat pharetra. Cras felis libero, commodo id massa congue, tincidunt consequat risus. Morbi et ligula suscipit, mattis quam eget, aliquam sapien. Ut rutrum et neque in sagittis. In hac habitasse platea dictumst. Aenean dapibus felis ac dui pulvinar rhoncus. Ut ullamcorper lorem vel convallis aliquam.',
+            "Maxwell Mysteires is a series of play-at-home puzzle games which utilise both printed and on-screen elements to provide 2+ hours of themed puzzling content, centred around the story of a 1930s private investigator. In each game the story unfolds over 5 levels and player progress is saved to the database at the end of each level.",
 
-            'Phasellus gravida mollis ex vitae tincidunt. Ut non est sit amet erat auctor euismod a eu nisl. Duis interdum porttitor imperdiet. Nullam vel porttitor dui. Etiam lorem nisl, tempus quis pellentesque accumsan, mattis ut arcu. Fusce in fringilla metus. Aenean vestibulum malesuada cursus.'
+            "Each game was bootstrapped using Create React App with custom CSS. It also uses React specific packages such as React Router and react-use-audio-player, which I chose for my previous experience with howler.js"
         ],
         images: [
             {
@@ -66,9 +66,9 @@ const portfolioData = [
     {
         name: "Actor's Portfolio",
         text: [
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis nibh vitae lectus dignissim eleifend eu at libero. Etiam pretium sit amet nisi id ultricies. Sed posuere nec lorem vitae eleifend. Proin non dui at dolor placerat pharetra. Cras felis libero, commodo id massa congue, tincidunt consequat risus. Morbi et ligula suscipit, mattis quam eget, aliquam sapien. Ut rutrum et neque in sagittis. In hac habitasse platea dictumst. Aenean dapibus felis ac dui pulvinar rhoncus. Ut ullamcorper lorem vel convallis aliquam.',
+            "Isobelle Pippin is an actor who wanted a portfolio site to share with casting director's. After sitting down to discuss what needed to be included in the site I created this static HTML site with several pages. The site incorporates Netlify CMS and Identity to give Isobelle an admin login for editing the content on the site.",
 
-            'Phasellus gravida mollis ex vitae gilla metus. Aenean vestibulum malesuada cursus.'
+            'This site was built from scratch using HTML, CSS and Javascript.'
         ],
         images: [
             {
@@ -118,9 +118,11 @@ const portfolioData = [
     {
         name: "Game System Prototypes",
         text: [
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis nibh vitae lectus dignissim eleifend eu at libero. Etiam pretium sit amet nisi id ultricies. Sed posuere nec lorem vitae eleifend. Proin non dui at dolor placerat pharetra. Cras felis libero, commodo id massa congue, tincidunt consequat risus. Morbi et ligula suscipit, mattis quam eget, aliquam sapien. Ut rutrum et neque in sagittis. In hac habitasse platea dictumst. Aenean dapibus felis ac dui pulvinar rhoncus. Ut ullamcorper lorem vel convallis aliquam.',
+            "As part of my role at Paradox Parlours, I am involved in the design & build of new games, including the creation of web based prototypes to a given brief.",
 
-            'Phasellus gravida mollis ex vitae tincidunt. Ut non est sit amet erat auctor euismod a eu nisl. Duis interdum porttitor imperdiet. Nullam vel porttitor dui. Etiam lorem nisl, tempus quis pellentesque accumsan, mattis ut arcu. Fusce in fringilla metus. Aenean vestibulum malesuada cursus.'
+            'The prototype linked here is a host operated game system which controls the game audio, time remaining and clues for a live escape game. The team must remix a song before the radio station reaches number 1 in the charts so the audio is not only for atmosphere but a crucial part of the game, providing context and the time remaining. The host also needed to be able to send clues to the team as needed.',
+
+            "This was built using Javascript, HTML and CSS. It uses howler.js for handling audio and utilises the Broadcast Channel API for communication between two browser windows."
         ],
         images: [
             {
@@ -163,7 +165,7 @@ const portfolioData = [
             }
         ],
         links: {
-            site: 'https://escaperadio.netlify.app/', // UPDATE LINK
+            site: 'https://escaperadio.netlify.app/',
             code: 'https://github.com/ollieChurch' // UPDATE LINK
         }
     },
