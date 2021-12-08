@@ -4,9 +4,12 @@ import './articles.css'
 import ArticlesHeader from './ArticlesHeader'
 import ArticlesHome from './ArticlesHome'
 import ArticlePost from './ArticlePost'
+import useResetScroll from '../../hooks/useResetScroll'
 
 function Articles() {
     let { path } = useRouteMatch()
+
+    useResetScroll()
 
     return (
         <div className='articles-pageContainer'>
