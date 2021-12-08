@@ -166,7 +166,7 @@ const portfolioData = [
         ],
         links: {
             site: 'https://escaperadio.netlify.app/',
-            code: 'https://github.com/ollieChurch' // UPDATE LINK
+            code: 'https://github.com/ollieChurch/escapeRadio'
         }
     },
     {
