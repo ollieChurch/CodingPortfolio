@@ -13,7 +13,7 @@ function FeaturedCard( {topic='helloworld'} ) {
             <div className='featuredCard-textContainer'>
                 <p className='featuredCard-text dropFont'>{introText}</p>
             </div>
-            <Link to={`/articles/${src}`} className='featuredCard-link'>Read More</Link>
+            <p className='featuredCard-link'>Read More</p>
         </Link>
     )
 }

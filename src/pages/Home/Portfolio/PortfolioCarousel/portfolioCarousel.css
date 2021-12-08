@@ -34,6 +34,11 @@
 .portfolio-controls-indicator { grid-area: indi; }
 .codeButtons-container { grid-area: code; }
 
+.tasterText-title {
+    grid-area: titl;
+    font-size: 2rem;
+}
+
 .portfolio-controls {
     outline: none;
     text-align: center; 

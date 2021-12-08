@@ -2,7 +2,7 @@ import './tasterText.css'
 
 function TasterText({text}) {
     return (
-        <div className='tasterText-container'>
+        <>
             <div className='tasterText-body'>
                 {text.map((para, index) => {
                     return (
@@ -13,7 +13,7 @@ function TasterText({text}) {
                     )
                 })}
             </div>
-        </div>
+        </>
     )
 }
 

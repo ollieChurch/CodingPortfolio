@@ -39,4 +39,7 @@
 .featuredCard-link {
     align-self: flex-end;
     padding-left: .5em;
+    color: blue;
+    text-decoration: underline;
+    margin: 0;
 }
