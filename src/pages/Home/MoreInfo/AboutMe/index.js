@@ -9,7 +9,7 @@ function AboutMe() {
             </h3>
             
             <p className='aboutMe-text dropFont'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse sit amet nulla fringilla, ullamcorper urna dignissim, auctor risus. Maecenas ac ante est. In molestie sagittis justo venenatis faucibus. Vestibulum tempor nibh neque, non pharetra nisl sollicitudin eu. Vestibulum vitae turpis ac ligula sagittis lacinia. In efficitur dolor a nunc luctus, nec molestie sem porttitor. Sed et massa rutrum, pretium magna eu, rutrum ante. Nam finibus mauris non suscipit porttitor. Integer elit eros, bibendum ac risus vel, luctus semper lorem. Duis sagittis fermentum ex, id elementum nisl semper in. Vestibulum finibus fringilla neque, sed ornare quam efficitur et. Nunc ut viverra nulla. Nulla id libero eget mi pulvinar lobortis.
+                A joy of puzzles, a generous creative drive, & a large splash of logical reasoning. My (sometimes mad) multi-faceted work life has required a high level of organisation and the ability to compartmentalise workloads while allowing relevant skills and contacts to overlap. As a self-taught frontend developer I am looking forward to bringing the left and right sides of my brain together as I focus in on an exciting career.
             </p>
             <UnboxingDoodle />
         </div>
