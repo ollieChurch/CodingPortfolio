@@ -117,7 +117,7 @@ const portfolioData = [
             }
         ],
         links: {
-            site: 'https://isobellepippin.netlify.app',
+            site: 'https://isobellepippin.co.uk',
             code: 'https://github.com/ollieChurch/ActingPortfolioIP'
         }
     },
@@ -128,7 +128,7 @@ const portfolioData = [
 
             'The prototype linked here is a host operated game system which controls the game audio, time remaining and clues for a live escape game. The team must remix a song before the radio station reaches number 1 in the charts so the audio is not only for atmosphere but a crucial part of the game, providing context and the time remaining. The host also needed to be able to send clues to the team as needed.',
 
-            "This was built using Javascript, HTML and CSS. It uses howler.js for handling audio and utilises the Broadcast Channel API for communication between two browser windows."
+            "This was built using Javascript, HTML and CSS. It uses howler.js for handling audio and utilises the Broadcast Channel API for communication between two browser windows. Please note that the Broadcast Channel API is not compatible with Safari."
         ],
         images: [
             {
