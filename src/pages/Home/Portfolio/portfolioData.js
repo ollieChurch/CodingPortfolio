@@ -10,11 +10,13 @@ import radio1 from '../../../assets/images/jpg/gamePrototype1.jpg'
 import radio2 from '../../../assets/images/jpg/gamePrototype2.jpg'
 import radio3 from '../../../assets/images/jpg/gamePrototype3.jpg'
 
+import codePortfolio1 from '../../../assets/images/jpg/codePortfolio1.jpg'
 import codePortfolio2 from '../../../assets/images/jpg/codePortfolio2.jpg'
+import codePortfolio3 from '../../../assets/images/jpg/codePortfolio3.jpg'
 
-const placeholder1 = 'https://picsum.photos/200/300'
+// const placeholder1 = 'https://picsum.photos/200/300'
 // const placeholder2 = 'https://picsum.photos/400/200'
-const placeholder3 = 'https://picsum.photos/500/500'
+// const placeholder3 = 'https://picsum.photos/500/500'
 
 const portfolioData = [
     {
@@ -128,7 +130,7 @@ const portfolioData = [
 
             'The prototype linked here is a host operated game system which controls the game audio, time remaining and clues for a live escape game. The team must remix a song before the radio station reaches number 1 in the charts so the audio is not only for atmosphere but a crucial part of the game, providing context and the time remaining. The host also needed to be able to send clues to the team as needed.',
 
-            "This was built using Javascript, HTML and CSS. It uses howler.js for handling audio and utilises the Broadcast Channel API for communication between two browser windows. Please note that the Broadcast Channel API is not compatible with Safari."
+            "This was built using Javascript, HTML and CSS. It uses howler.js for handling audio and utilises the Broadcast Channel API for communication between two browser windows. Note that the Broadcast Channel API is not compatible with Safari."
         ],
         images: [
             {
@@ -180,20 +182,20 @@ const portfolioData = [
         text: [
             'A portfolio site to show off my favourite projects and aid with my frontend devlopment job search.',
             
-            'I knew I would be using repeating components throughout, so I chose to bootstrap this site using Create React App, with custom CSS, and incorporated React Router for page routing.'
+            'I bootstrapped this site using Create React App, with custom CSS, and incorporated React Router for page routing. The contact form uses Netlify Forms to screen out spam and notify me of new submissions.'
         ],
         images: [
             {
-                src: placeholder1,
-                alt: ''
+                src: codePortfolio1,
+                alt: 'portfolio carousel showing Maxwell Mysteries'
             },
             {
                 src: codePortfolio2,
                 alt: 'greeting screen. Text reads: Ollie Church, frontend developer'
             },
             {
-                src: placeholder3,
-                alt: ''
+                src: codePortfolio3,
+                alt: 'about me, featured articles and the top of the contact form'
             }
         ],
         tags: [
