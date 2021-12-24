@@ -2,17 +2,20 @@ import { Link, useRouteMatch } from 'react-router-dom'
 import LightPanel from '../../../components/LightPanel'
 import './articleCard.css'
 
-import articleData from '../ArticlePost/articles/articleData'
+import articleData from '../ArticlePost/articleData'
 
 function ArticleCard( {topic='helloworld'} ) {
     let { url } = useRouteMatch()
-    const { src, title, img, imgAlt, introText } = articleData.[topic]
+    const { src, title, date, img, imgAlt, introText } = articleData.[topic]
 
     return (
         <Link to={`${url}/${src}`} className='removeLinkStyling'>
             <LightPanel addedClasses='articles-articleCard'>
                 <img className='articleCard-img' src={img} alt={imgAlt} />
-                <h2>{title}</h2>
+                <div>
+                    <h2 className='article-title'>{title}</h2>
+                    <p className='articleCard-date'>{date}</p>
+                </div>
                 <div className='articleCard-textContainer'>
                     <p className='articleCard-text dropFont'>{introText}</p>
                 </div>

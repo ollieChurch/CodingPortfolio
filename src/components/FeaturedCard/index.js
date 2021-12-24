@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './featuredCard.css'
 
-import articleData from '../../pages/Articles/ArticlePost/articles/articleData'
+import articleData from '../../pages/Articles/ArticlePost/articleData'
 
 function FeaturedCard( {topic='helloworld'} ) {
     const {src, title, img, imgAlt, introText} = articleData.[topic]

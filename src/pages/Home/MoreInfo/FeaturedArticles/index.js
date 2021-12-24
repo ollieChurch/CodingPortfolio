@@ -8,7 +8,7 @@ function FeaturedArticles() {
                 Featured Articles <i className="far fa-newspaper"></i>
                 <div className='moreInfo-cardContainer'>
                     <FeaturedCard topic='codingjourney' />
-                    <FeaturedCard />
+                    <FeaturedCard topic='lovecssgrid'/>
                 </div>
             </h3>
         </div>

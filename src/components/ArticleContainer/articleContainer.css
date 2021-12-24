@@ -10,6 +10,20 @@
     padding: 0 1em;
 }
 
+.article-title {
+    margin-bottom: 0;
+}
+
+.article-date {
+    margin: 0 0 1.75em 0;
+    font-style: italic;
+    opacity: .5;
+}
+
+.article-subtitle {
+    font-size: 1.6rem;
+}
+
 .article-img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;

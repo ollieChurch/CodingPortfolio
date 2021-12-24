@@ -7,8 +7,8 @@ function ArticleSideBar() {
         <aside>
             <LightPanel addedClasses='articles-sideBar'>
                 <h3 className='featuredArticles-head'>Featured Articles</h3>
-                <FeaturedCard />
-                <FeaturedCard />
+                <FeaturedCard topic='codingjourney'/>
+                <FeaturedCard topic='lovecssgrid'/>
             </LightPanel>
         </aside>
     )
