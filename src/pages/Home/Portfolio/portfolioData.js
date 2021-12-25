@@ -218,7 +218,7 @@ const portfolioData = [
         ],
         links: {
             site: '/#portfolioSection',
-            code: 'https://github.com/ollieChurch' // UPDATE LINK
+            code: 'https://github.com/ollieChurch/CodingPortfolio'
         }
     },
 ]
