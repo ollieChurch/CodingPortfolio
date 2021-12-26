@@ -101,3 +101,9 @@ button {
       stroke-dashoffset: 0;
   }
 }
+
+@media(max-width: 725px) {
+  section {
+    padding: 2em 1em 0 1em;
+  }
+}
