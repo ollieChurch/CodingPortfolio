@@ -18,6 +18,7 @@
     resize: none;
     height: 10em;
     margin-bottom: 0;
+    border-style: ridge;
 }
 
 .contactForm-btn {
