@@ -77,7 +77,7 @@ function Contact() {
 
             <footer className='footer-contact'>
                 <p>Made by Ollie. Fuelled by tea.</p>
-                <p>Copyright 2021</p>
+                <p>Copyright {new Date().getFullYear()}</p>
             </footer>
         </section>
     )
