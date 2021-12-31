@@ -43,11 +43,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    outline: 2px solid red;
 }
 
 .contactLink {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 10% auto;
     grid-gap: 2em;
     width: 100%;
     align-items: center;
@@ -67,11 +70,12 @@
 
 .contactLink>i {
     font-size: 2em;
-    text-align: right;
+    text-align: left;
 }
 
 .contactLink>p {
     margin: 0;
+    padding: 0;
     text-align: left;
 }
 
