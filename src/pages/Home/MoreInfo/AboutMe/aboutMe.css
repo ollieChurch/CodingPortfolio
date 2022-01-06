@@ -4,12 +4,31 @@
     justify-content: space-between;
 }
 
-.aboutMe-img {
+/* .aboutMe-img {
     height: 25vh;
     align-self: center;
-}
+} */
 
 .aboutMe-text {
     font-size: 1rem;
 }
 
+.aboutMe-img {
+    height: 25vh;
+    aspect-ratio: 1/1;
+    align-self: center;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 10%;
+    border: 3px solid black;
+}
+
+@media (min-width:650px) and (max-width: 875px) {
+    .aboutMe {
+        flex-direction: row;
+    }
+
+    .aboutMe-text {
+        padding-right: 2em;
+    }
+}
