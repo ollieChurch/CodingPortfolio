@@ -11,15 +11,12 @@ function Nav({addHome=false}) {
 
     useEffect(() => {
         windowSize.width >= 725 ? setMobileMenu(false) : setMobileMenu(true)
-        console.log(windowSize)
     }, [windowSize])
 
     function toggleMenu() {
         setmenuOpen(prevState => !prevState)
     }
 
-    console.log(mobileMenu)
-    
     return(
         <nav
             className={mobileMenu ? 'nav-mobile' : 'visibleNav'}

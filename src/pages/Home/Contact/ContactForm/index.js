@@ -10,7 +10,6 @@ function ContactForm({setFormSubmitted}) {
 
     function handleChange(e) {
         const {name, value} = e.target
-        console.log(e.target.name)
         setFormInput(prevData => {
             return {
                 ...prevData,

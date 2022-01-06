@@ -5,7 +5,6 @@ function ProjectCard({ projectData }) {
     const {name, images, text, tags, links} = projectData
 
     function handleClick() {
-        console.log('handle click')
         window.open(links.site)
     }
 
