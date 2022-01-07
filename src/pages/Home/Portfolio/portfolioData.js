@@ -249,7 +249,7 @@ const portfolioData = [
         tags: [
             {
                 text: 'jQuery',
-                symbol: 'fas fa-dollar-sign'
+                symbol: 'fas fa-laptop-code'
             },
             {
                 text: 'CSS',
