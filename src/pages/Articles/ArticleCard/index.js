@@ -19,7 +19,7 @@ function ArticleCard( {topic='helloworld'} ) {
                 <div className='articleCard-textContainer'>
                     <p className='articleCard-text dropFont'>{introText}</p>
                 </div>
-                <Link to={`${url}/${src}`}>Read More</Link>
+                <p className='articleCard-link'>Read More</p>
             </LightPanel>
         </Link>
     )

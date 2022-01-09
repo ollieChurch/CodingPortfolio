@@ -31,3 +31,9 @@
 .articleCard-text {
     margin: 0;
 }
+
+.articleCard-link {
+    color: blue;
+    text-decoration: underline;
+    margin: 0;
+}
