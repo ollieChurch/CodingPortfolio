@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import './contact.css'
-import cv from '../../../assets/files/cv.pdf'
+import cv from '../../../assets/files/ollieChurchCV.pdf'
 
 import useWindowSize from '../../../hooks/useWindowSize'
 
