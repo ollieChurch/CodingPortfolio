@@ -1,6 +1,8 @@
 import HelloWorld from './articles/HelloWorld'
 import CodingJourney from './articles/CodingJourney'
 import LoveCSSGrid from './articles/LoveCSSGrid'
+import KidnappedProfessorLaunch from './articles/KidnappedProfessorLaunch'
+import kpLaunchImg from '../../../assets/images/jpg/maxwellMysteries3.jpg'
 
 const articleData = {
     helloworld:
@@ -32,6 +34,16 @@ const articleData = {
             img: 'https://source.unsplash.com/-1_RZL8BGBM/1920x1153',
             imgAlt: "sticky notes arranged in a 3 x 3 grid. The bottom right note is being removed by someone's hand",
             introText: "I love CSS Grid! It is so often the perfect layout tool for the job, and the property I love most is 'grid-area'. Using this property means that the layout can be instantly understood in the code, responsive media queries require less overwriting, and changing the entire layout of your site becomes easy to implement in a matter of moments."
+        },
+    kidnappedprofessorlaunch:
+        {
+            component: <KidnappedProfessorLaunch />,
+            src: 'kidnappedprofessorlaunch',
+            title: "Launch of 'The Kidnapped Professor'",
+            date: 'January 2022',
+            img: kpLaunchImg,
+            imgAlt: "Screenshot of The Kidnapped Professor puzzle game. A typewriter is being typed on by an unseen user.",
+            introText: "In December 2021 I launched the second in my Maxwell Mysteries puzzle game series; The Kidnapped Professor. Maxwell Mysteries follows the cases of fictional 1930s private investigator Larry Maxwell. In Larry's latest case Professor Foxworth has been taken from his office in the heart of New York. Follow the clues, secure the research and find the professor before it is too late!"
         },
 }
 
