@@ -4,7 +4,7 @@ import './featuredCard.css'
 import articleData from '../../pages/Articles/ArticlePost/articleData'
 
 function FeaturedCard( {topic='helloworld'} ) {
-    const {src, title, img, imgAlt, introText} = articleData.[topic]
+    const {src, title, img, imgAlt, introText} = articleData[topic]
 
     return (
         <Link to={`/articles/${src}`} className='articles-featuredCard removeLinkStyling'>

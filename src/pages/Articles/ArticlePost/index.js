@@ -4,7 +4,7 @@ import useResetScroll from '../../../hooks/useResetScroll'
 
 function ArticlePost() {
     let { topicId } = useParams()
-    const { component } = articleData.[topicId]
+    const { component } = articleData[topicId]
     useResetScroll()
     return ( <> {component} </> )
 }

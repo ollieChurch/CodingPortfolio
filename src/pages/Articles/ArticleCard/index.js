@@ -6,7 +6,7 @@ import articleData from '../ArticlePost/articleData'
 
 function ArticleCard( {topic='helloworld'} ) {
     let { url } = useRouteMatch()
-    const { src, title, date, img, imgAlt, introText } = articleData.[topic]
+    const { src, title, date, img, imgAlt, introText } = articleData[topic]
 
     return (
         <Link to={`${url}/${src}`} className='removeLinkStyling'>

@@ -3,7 +3,7 @@ import articleData from "../../pages/Articles/ArticlePost/articleData"
 import './articleContainer.css'
 
 function ArticleContainer({article, children}) {
-    const {title, date, img, imgAlt, introText} = articleData.[article]
+    const {title, date, img, imgAlt, introText} = articleData[article]
 
     return (
         <div className='article-content'>
