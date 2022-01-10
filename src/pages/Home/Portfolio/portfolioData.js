@@ -186,7 +186,9 @@ const portfolioData = [
         text: [
             'A portfolio site to show off my favourite projects and aid with my frontend devlopment job search.',
             
-            'I bootstrapped this site using Create React App, with custom CSS, and incorporated React Router for page routing. The contact form uses Netlify Forms to screen out spam and notify me of new submissions.'
+            'I bootstrapped this site using Create React App, with custom CSS, and incorporated React Router for page routing. The contact form uses Netlify Forms to screen out spam and notify me of new submissions.',
+
+            'This is my first project to include unit testing and I am currently working to improve the code coverage of my tests.'
         ],
         images: [
             {
@@ -206,6 +208,10 @@ const portfolioData = [
             {
                 text: 'React',
                 symbol: 'fab fa-react'
+            },
+            {
+                text: 'Unit Testing',
+                symbol: 'fas fa-clipboard-check'
             },
             {
                 text: 'React Router',
