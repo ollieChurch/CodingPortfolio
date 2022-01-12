@@ -9,9 +9,13 @@ function AboutMe() {
                     About Me <i className="far fa-grin-alt"></i>
                 </h3>
                 
-                <p className='aboutMe-text dropFont'>
-                    A joy of puzzles, a generous creative drive, & a large splash of logical reasoning. My (sometimes mad) multi-faceted work life has required a high level of organisation and the ability to compartmentalise workloads while allowing relevant skills and contacts to overlap. As a self-taught frontend developer I enjoy creating interactive content with intuitive UI and using creative problem solving to fulfil a brief.
-                </p>
+                <div className='aboutMe-text dropFont'>
+                    <p>Self taught frontend developer who started coding as a hobby around 2 years ago. Used my furlough time of 2020/21 to develop my abilities in HTML, CSS, Javascript and React to an employment level and am now looking to make the move from my operations manager position to an entry level front end web development role.</p>
+                    
+                    <p>Over the last 18 months one major achievement in my web development experience is the creation of two play-at-home puzzle games in the Maxwell Mysteries series. These were built using React and are being sold via a large escape room company in Surrey. You can see more about this in my portfolio projects above.</p>
+                    
+                    <p>With a joy of puzzles and a background in the creative arts I especially enjoy creating interactive content with intuitive UI and using creative problem solving to tackle new challenges from a brief.</p>
+                </div>
             </div>
             <img src={profileImg} alt='Ollie Church' className='aboutMe-img'/>
         </div>
