@@ -26,9 +26,11 @@ const portfolioData = [
     {
         name: 'Maxwell Mysteries',
         text: [
-            "Maxwell Mysteires is a series of play-at-home puzzle games which utilise both printed and on-screen elements to provide 2+ hours of themed puzzling content, centred around the story of a 1930s private investigator. In each game the story unfolds over 5 levels and player progress is saved to the database at the end of each level.",
+            "Maxwell Mysteires is a five-star rated series of play-at-home puzzle games which utilise both printed and on-screen elements to provide 2+ hours of themed puzzling content, centred around the story of a 1930s private investigator. In each game the story unfolds over 5 levels and player progress is saved to the database at the end of each level.",
 
-            "Each game was bootstrapped using Create React App with custom CSS. It also uses React specific packages such as React Router and react-use-audio-player, which I chose for my previous experience with howler.js"
+            "Each game was bootstrapped using Create React App with custom CSS. It also uses React specific packages such as React Router and react-use-audio-player, which I chose for my previous experience with howler.js",
+
+            "Both 'The Disappearing Diamond' and 'The Kidnapped Professor' can be purchased from Paradox Parlours Escape Rooms. For this reason the code for the full games are private but I have linked here a short demo level and published the code on Git Hub."
         ],
         images: [
             {
