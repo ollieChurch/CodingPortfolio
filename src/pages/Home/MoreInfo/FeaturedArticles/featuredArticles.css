@@ -1,5 +1,6 @@
 .moreInfo-featuredArticles {
     display: grid;
+    grid-template-rows: min-content auto;
     grid-gap: 1em;
     height: 100%;
 }

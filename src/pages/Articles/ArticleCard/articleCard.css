@@ -5,6 +5,7 @@
     max-height: 500px;
     align-items: center;
     margin-bottom: 1em;
+    border-top: var(--pink) 8px solid;
 }
 
 .articleCard-date {

@@ -6,11 +6,11 @@ function FeaturedArticles() {
         <div className='moreInfo-featuredArticles'>
             <h3 className='moreInfo-title'>
                 Featured Articles <i className="far fa-newspaper"></i>
-                <div className='moreInfo-cardContainer'>
-                    <FeaturedCard topic='codingjourney' />
-                    <FeaturedCard topic='lovecssgrid'/>
-                </div>
-            </h3>
+            </h3>    
+            <div className='moreInfo-cardContainer'>
+                <FeaturedCard topic='codingjourney' />
+                <FeaturedCard topic='lovecssgrid'/>
+            </div>
         </div>
     )
 }
