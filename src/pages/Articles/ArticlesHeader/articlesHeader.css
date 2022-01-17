@@ -1,12 +1,13 @@
 .header-articles {
     background: var(--blue);
     padding: 1em;
+    grid-area: aHead;
 }
 
 .header-content {
     display: flex;
     justify-content: space-between;
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 0 auto;
     height: 100%;
 }
