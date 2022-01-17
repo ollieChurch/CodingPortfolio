@@ -25,7 +25,7 @@ function Nav({addHome=false}) {
             }}
         >
             {mobileMenu && 
-                <button className='nav-mobileIcon' ariaLabel='open menu' onClick={() => toggleMenu()}>
+                <button className='nav-mobileIcon' aria-label='open menu' onClick={() => toggleMenu()}>
                     <i className="fas fa-bars" ></i>
                 </button>
             }
