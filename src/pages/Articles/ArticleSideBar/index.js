@@ -11,12 +11,15 @@ function ArticleSideBar() {
                 <FeaturedCard topic='lovecssgrid'/>
             </LightPanel>
             <LightPanel addedClasses='articles-sideBar-panel'>
-                <h3 className='articles-sideBar-head'>Article Tags <i class="fas fa-tags"></i></h3>
+                <h3 className='articles-sideBar-head'>Article Tags <i className="fas fa-tags"></i></h3>
                 <div className='articles-tagsContainer'>
-                    <button>tag1</button>
-                    <button>tag2</button>
-                    <button>tag3</button>
-                    <button>tag4</button>
+                    <button className='articles-tagBtn'>longTag1</button>
+                    <button className='articles-tagBtn'>tg2</button>
+                    <button className='articles-tagBtn'>tg2</button>
+                    <button className='articles-tagBtn'>tg2</button>
+                    <button className='articles-tagBtn'>tg2</button>
+                    <button className='articles-tagBtn'>veryLongTag3</button>
+                    <button className='articles-tagBtn'>tag4</button>
                 </div>
             </LightPanel>
         </aside>

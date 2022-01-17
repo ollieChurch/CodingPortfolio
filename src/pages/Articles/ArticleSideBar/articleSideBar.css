@@ -17,3 +17,14 @@
 .articles-sideBar-head {
     font-size: 1.5rem;
 }
+
+.articles-tagsContainer {
+    display: flex;
+    flex-flow: row wrap;
+    padding-top: 1em;
+    gap: 1em;
+}
+
+.articles-tagBtn {
+    font-size: 1.25rem;
+}
