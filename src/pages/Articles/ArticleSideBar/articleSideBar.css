@@ -1,10 +1,19 @@
 .articles-sideBar {
-    min-height: 500px;
+    display: grid;
+    grid-gap: 1em;
+    height: min-content;
+}
+
+.articles-sideBar-panel {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
-.featuredArticles-head {
+.sideBar-featured {
+    min-height: 500px;
+}
+
+.articles-sideBar-head {
     font-size: 1.5rem;
 }
