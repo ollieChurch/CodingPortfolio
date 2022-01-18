@@ -14,9 +14,9 @@ import codePortfolio1 from '../../../assets/images/jpg/codePortfolio1.jpg'
 import codePortfolio2 from '../../../assets/images/jpg/codePortfolio2.jpg'
 import codePortfolio3 from '../../../assets/images/jpg/codePortfolio3.jpg'
 
-import metricClock1 from '../../../assets/images/jpg/metricClock1.jpg'
-import metricClock2 from '../../../assets/images/jpg/metricClock2.jpg'
-import metricClock3 from '../../../assets/images/jpg/metricClock3.jpg'
+// import metricClock1 from '../../../assets/images/jpg/metricClock1.jpg'
+// import metricClock2 from '../../../assets/images/jpg/metricClock2.jpg'
+// import metricClock3 from '../../../assets/images/jpg/metricClock3.jpg'
 
 // const placeholder1 = 'https://picsum.photos/200/300'
 // const placeholder2 = 'https://picsum.photos/400/200'
@@ -233,51 +233,51 @@ const portfolioData = [
             code: 'https://github.com/ollieChurch/CodingPortfolio'
         }
     },
-    {
-        name: "Metric Clock",
-        text: [
-            'A whimsical and simple site to convert time into a metric measurement. One of my older projects, this was created as fun for a friend. It features both a live read out of the time and a conversion tool.',
+    // {
+    //     name: "Metric Clock",
+    //     text: [
+    //         'A whimsical and simple site to convert time into a metric measurement. One of my older projects, this was created as fun for a friend. It features both a live read out of the time and a conversion tool.',
             
-            'The site was created from scratch using HTML, custom CSS and JQuery.'
-        ],
-        images: [
-            {
-                src: metricClock1,
-                alt: 'Live read out of time into metric.'
-            },
-            {
-                src: metricClock2,
-                alt: 'Conversion of custom input SI time into metric.'
-            },
-            {
-                src: metricClock3,
-                alt: 'Conversion of custom input metric into SI time.'
-            }
-        ],
-        tags: [
-            {
-                text: 'jQuery',
-                symbol: 'fas fa-laptop-code'
-            },
-            {
-                text: 'CSS',
-                symbol: 'fab fa-css3-alt'
-            },
-            {
-                text: 'Responsive',
-                symbol: 'fas fa-mobile-alt'
-            },
-            {
-                text: 'HTML',
-                symbol: 'fab fa-html5'
-            }
+    //         'The site was created from scratch using HTML, custom CSS and JQuery.'
+    //     ],
+    //     images: [
+    //         {
+    //             src: metricClock1,
+    //             alt: 'Live read out of time into metric.'
+    //         },
+    //         {
+    //             src: metricClock2,
+    //             alt: 'Conversion of custom input SI time into metric.'
+    //         },
+    //         {
+    //             src: metricClock3,
+    //             alt: 'Conversion of custom input metric into SI time.'
+    //         }
+    //     ],
+    //     tags: [
+    //         {
+    //             text: 'jQuery',
+    //             symbol: 'fas fa-laptop-code'
+    //         },
+    //         {
+    //             text: 'CSS',
+    //             symbol: 'fab fa-css3-alt'
+    //         },
+    //         {
+    //             text: 'Responsive',
+    //             symbol: 'fas fa-mobile-alt'
+    //         },
+    //         {
+    //             text: 'HTML',
+    //             symbol: 'fab fa-html5'
+    //         }
 
-        ],
-        links: {
-            site: 'https://metricclock.netlify.app',
-            code: 'https://github.com/ollieChurch/MetricClock'
-        }
-    },
+    //     ],
+    //     links: {
+    //         site: 'https://metricclock.netlify.app',
+    //         code: 'https://github.com/ollieChurch/MetricClock'
+    //     }
+    // },
 ]
 
 export default portfolioData
