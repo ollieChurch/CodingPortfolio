@@ -9,7 +9,7 @@ function ArticleCard( {topic='helloworld'} ) {
     const { src, title, date, img, imgAlt, introText } = articleData[topic]
 
     return (
-        <Link to={`${url}/${src}`} className='removeLinkStyling'>
+        <Link to={`${url}/${src}`} className='removeLinkStyling articles-cardLink'>
             <LightPanel addedClasses='articles-articleCard'>
                 <img className='articleCard-img' src={img} alt={imgAlt} />
                 <div>

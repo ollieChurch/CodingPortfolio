@@ -2,13 +2,12 @@ import catGameGIF from '../../../../assets/gifs/catGame.gif'
 import arduinoImg from '../../../../assets/images/jpg/articlePosts/arduino.jpg'
 import disappearingDiamondImg from '../../../../assets/images/jpg/articlePosts/disappearingDiamond.jpg'
 import MediaContainer from '../../../../components/MediaContainer'
-import ArticleContainer from '../../../../components/ArticleContainer'
 
 function CodingJourney() {
     return (
-        <ArticleContainer article='codingjourney'>   
+        <>   
             <MediaContainer addedClasses='float-media-right'>
-                <iframe className='article-vid' src="https://www.youtube-nocookie.com/embed/TKQzqwn-jIM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe className='article-vid' src="https://www.youtube-nocookie.com/embed/TKQzqwn-jIM" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
                 <p className='article-mediaCaption'>Eddie Izzard performing her sketch on technology (includes strong language)</p>
             </MediaContainer>
 
@@ -58,7 +57,7 @@ function CodingJourney() {
             <p>With this success, my confidence in my ability to learn and actually implement code grew. Despite some Twitter user making it onto my newsfeed to claim that <em>26 years old</em> was very late to be learning to code, my 28 year old creaky bones signed up to Scrimba's paid content and instantly enrolled on the Frontend Developer Career Course. During this course I learnt a huge amount and kept building bigger and better projects alongside, using the lesson content as inspiration, and supplementing any gaps in my knowledge with a googling spree. The second Maxwell Mysteries puzzle game, The Kidnapped Professor, is just about ready for release as I write this and the step up in my abilities, from the code to the UI/UX design, is huge.</p>
 
             <p>Completing the Frontend Developer Career Course is exciting, I am ready for the next step in my coding journey, there's so much more out there that still needs creating. And I am sure it will start with me saying "Wouldn't it be cool if...".</p>
-        </ArticleContainer>
+        </>
     )
 }
 

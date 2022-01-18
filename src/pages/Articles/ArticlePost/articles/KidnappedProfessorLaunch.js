@@ -1,10 +1,9 @@
-import ArticleContainer from "../../../../components/ArticleContainer";
 import MediaContainer from "../../../../components/MediaContainer";
 import newsImg from '../../../../assets/images/jpg/articlePosts/kpNewsPromo.jpg'
 
 function KidnappedProfessorLaunch() {
     return (
-        <ArticleContainer article='kidnappedprofessorlaunch'>
+        <>
             <MediaContainer addedClasses='float-media-right'>
                 <img 
                     src={newsImg} 
@@ -23,7 +22,7 @@ function KidnappedProfessorLaunch() {
             <p>I am delighted my the initial response to The Kidnapped Professor. It has built on the success of The Disappearing Diamond, again receiving 5 stars from the folk over at Review The Room. Their conclusion was: <em>"We really enjoyed the first Maxwell Mysteries game, but we enjoyed this one even more. The puzzles clicked with us, the printing and cutting wasn’t a chore, and the story and general quality of the game made it an instant ‘must play’ for us."</em>. You can read <a href='https://www.reviewtheroom.co.uk/paradox-parlours-maxwell-mysteries-the-kidnapped-professor-play-at-home/' target='_blank' rel='noreferrer'>the full review</a> on their site.</p>
 
             <p>If you fancy yourself as detective you can purchase both Maxwell Mysteries games from <a href='https://paradoxparlours.com/escape-rooms/online' target='_blank' rel='noreferrer'>Paradox Parlours Escape Rooms</a>. You can also try out a short demo level at <a href='https://mysteries-demo.co.uk' target='_blank' rel='noreferrer'>mysteries-demo.co.uk</a></p>
-        </ArticleContainer>
+        </>
     )
 }
 
