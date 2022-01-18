@@ -1,4 +1,3 @@
-import ArticleContainer from "../../../../components/ArticleContainer"
 import MediaContainer from "../../../../components/MediaContainer"
 
 import css1Img from '../../../../assets/images/jpg/articlePosts/gridCSSAndDisplay1.jpg'
@@ -9,7 +8,7 @@ import htmlImg from '../../../../assets/images/jpg/articlePosts/gridHTML.jpg'
 
 function LoveCSSGrid () {
     return (
-        <ArticleContainer article='lovecssgrid'>
+        <>
             <h3 className='article-subtitle'>Getting started</h3>
             <MediaContainer addedClasses='float-media-right'>
                 <img 
@@ -73,7 +72,7 @@ function LoveCSSGrid () {
                     className='article-img'
                 />
             </MediaContainer>
-        </ArticleContainer>
+        </>
     )
 }
 

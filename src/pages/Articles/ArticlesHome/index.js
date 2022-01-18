@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import ArticleCard from "../ArticleCard";
 import articleData from "../ArticlePost/articleData";
-import ArticlesFeatured from "../ArticleSideBar/ArticlesFeatured";
-import ArticlesTags from "../ArticleSideBar/ArticlesTags";
+import ArticlesFeatured from "./ArticlesFeatured";
+import ArticlesTags from "./ArticlesTags";
 
 function ArticlesHome() {
     const [articlesArr] = useState([...Object.values(articleData)])
@@ -16,7 +16,7 @@ function ArticlesHome() {
             <div className='articles-all'>
                 <div className='articles-allHeader'>
                     <h3 className='articles-homeTitle'>All Articles <i className="far fa-folder-open"></i></h3>
-                    {filterTag && <button onClick={() => setFilterTag(null)}>clear filter</button>}
+                    {filterTag && <button className='articles-clearFilterBtn' onClick={() => setFilterTag(null)}>clear filter</button>}
                 </div>
                 
                 <div className='articles-allContainer'>

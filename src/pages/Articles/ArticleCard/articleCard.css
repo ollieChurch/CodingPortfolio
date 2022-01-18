@@ -7,8 +7,13 @@
     align-items: center;
     border-top: var(--pink) 8px solid;
     cursor: pointer;
-    margin: 0 auto;
 }
+
+.articles-cardLink {
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+  }
 
 .articleCard-date {
     margin: 0 0;

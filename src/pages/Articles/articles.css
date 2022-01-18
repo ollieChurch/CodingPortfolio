@@ -76,6 +76,14 @@
     gap: 1em;
 }
 
+.articles-clearFilterBtn {
+    font-size: 1.25rem;
+    background: transparent;
+    box-shadow: unset;
+    color: var(--pink);
+    text-decoration: underline;
+}
+
 .articles-allContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));

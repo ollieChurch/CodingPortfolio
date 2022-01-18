@@ -1,8 +1,6 @@
-import ArticleContainer from "../../../../components/ArticleContainer"
-
 function HelloWorld() {
     return (
-        <ArticleContainer article='helloworld' />
+        <p>Hello World!</p>
     )
 }
 
