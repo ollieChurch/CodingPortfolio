@@ -12,6 +12,7 @@ body {
   margin: 0;
   font-family: 'Walter Turncoat', cursive;
   font-weight: bold;
+  font-display: swap;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #E2F1FA;
