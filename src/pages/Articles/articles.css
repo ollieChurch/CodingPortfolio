@@ -60,29 +60,36 @@
     display: flex;
     flex-flow: row wrap;
     gap: 1em;
+    min-width: 300px;
 }
 
 .articles-tagBtn {
     font-size: 1.25rem;
 }
 
-.articles-recent {
+.articles-all {
     grid-area: aMain;
 }
 
-.articles-recentContainer {
+.articles-allHeader {
+    display: flex;
+    gap: 1em;
+}
+
+.articles-allContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1em;
     padding-top: 1em;
+    width: 100%;
 }
 
 @media(max-width: 1000px) {
     .articles-home {
         grid-template-areas: 
             'aFeat'
-            'aMain'
             'aTags'
+            'aMain'
             '.....';
     }
 }
