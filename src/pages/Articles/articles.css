@@ -63,6 +63,12 @@
     font-size: 1.25rem;
 }
 
+.articles-tagBtn:hover,
+.articles-tagBtn:focus {
+    background: var(--pink);
+    color: white;
+}
+
 .articles-all {
     grid-area: aMain;
 }
@@ -78,6 +84,11 @@
     box-shadow: unset;
     color: var(--pink);
     text-decoration: underline;
+}
+
+.articles-clearFilterBtn:hover,
+.articles-clearFilterBtn:focus {
+    color: black;
 }
 
 .articles-allContainer {
