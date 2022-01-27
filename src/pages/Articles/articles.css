@@ -48,10 +48,6 @@
     grid-gap: 1.5em;
 }
 
-.articles-featuredLightPanel {
-    border-right: solid 15px var(--blue);
-}
-
 .articles-homeTitle {
     font-size: 1.5rem;
 }

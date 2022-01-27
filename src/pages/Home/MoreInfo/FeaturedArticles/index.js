@@ -1,15 +1,15 @@
 import FeaturedCard from '../../../../components/FeaturedCard'
 import './featuredArticles.css'
 
-function FeaturedArticles() {
+function FeaturedArticles({contentHeight}) {
     return (
         <div className='moreInfo-featuredArticles'>
             <h3 className='moreInfo-title'>
                 Featured Articles <i className="far fa-newspaper"></i>
-            </h3>    
+            </h3>  
             <div className='moreInfo-cardContainer'>
-                <FeaturedCard topic='codingjourney' />
-                <FeaturedCard topic='lovecssgrid'/>
+                <FeaturedCard topic='codingjourney' contentHeight={contentHeight} />
+                <FeaturedCard topic='lovecssgrid' contentHeight={contentHeight} />
             </div>
         </div>
     )
