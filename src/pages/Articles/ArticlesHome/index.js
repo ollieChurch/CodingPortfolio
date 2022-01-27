@@ -5,7 +5,7 @@ import ArticlesFeatured from "./ArticlesFeatured";
 import ArticlesTags from "./ArticlesTags";
 
 function ArticlesHome() {
-    const [articlesArr] = useState([...Object.values(articleData)])
+    const [articlesArr] = useState([...Object.values(articleData).reverse()])
     const [filterTag, setFilterTag] = useState(null)
 
     return (
@@ -20,7 +20,7 @@ function ArticlesHome() {
                 </div>
                 
                 <div className='articles-allContainer'>
-                    {articlesArr.reverse().map((article, index) => {
+                    {articlesArr.map((article, index) => {
                         return (article.tags.includes(filterTag) || !filterTag) ? 
                             <ArticleCard topic={article.src} key={`article${index}`} /> : null
                     })}
