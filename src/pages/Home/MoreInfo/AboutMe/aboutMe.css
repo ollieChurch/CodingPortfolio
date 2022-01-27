@@ -1,7 +1,8 @@
-.aboutMe {
+.aboutMe-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    /* height: 100%; */
 }
 
 .aboutMe-text {
@@ -9,7 +10,7 @@
 }
 
 .aboutMe-img {
-    height: 25vh;
+    height: 200px;
     aspect-ratio: 1/1;
     align-self: center;
     border-radius: 50%;
@@ -19,7 +20,7 @@
 }
 
 @media (min-width:650px) and (max-width: 875px) {
-    .aboutMe {
+    .aboutMe-container {
         flex-direction: row;
     }
 
@@ -29,7 +30,7 @@
 }
 
 @media (min-width: 1275px) {
-    .aboutMe {
+    .aboutMe-container {
         flex-direction: row;
     }
 

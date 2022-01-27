@@ -1,13 +1,18 @@
 .moreInfo-featuredArticles {
-    display: grid;
-    grid-template-rows: min-content auto;
-    grid-gap: 1em;
-    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .moreInfo-cardContainer {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     height: 100%;
+}
+
+@media (max-width:875px) {
+    .moreInfo-cardContainer {
+        gap: 28px;
+    }
 }

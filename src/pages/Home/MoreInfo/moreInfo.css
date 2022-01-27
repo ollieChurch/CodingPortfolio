@@ -6,11 +6,13 @@
 .moreInfo-grid {
     display: grid;
     grid-template-columns: 1fr .75fr;
-    grid-gap: 3em;
+    grid-template-rows: min-content;
+    grid-gap: 2em;
 }
 
 .moreInfo-title {
     font-size: 1.5rem;
+    margin-bottom: 1em;
 }
 
 @media(max-width: 875px) {

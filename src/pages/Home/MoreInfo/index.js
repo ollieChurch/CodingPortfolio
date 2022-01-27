@@ -11,28 +11,25 @@ import FeaturedArticles from './FeaturedArticles'
 
 function MoreInfo() {
     const [useGreetingRoute, setUseGreetingRoute] = useState(true)
+    const [contentHeight, setContentHeight] = useState(0)
     const {windowSize} = useWindowSize()
 
     useEffect(() => {
+        setContentHeight(document.querySelector('.aboutMe-container').clientHeight)
         windowSize.width >= 600 ? setUseGreetingRoute(true) : setUseGreetingRoute(false)
     }, [windowSize])
 
     return (
         <section className='moreInfo-container' id='moreInfoSection'>
             {useGreetingRoute && <GreetingRoute />}
+
             <div className='content moreInfo-content'>
                 <div className='moreInfo-grid'>
-                    <LightPanel>
-                        <AboutMe />
-                    </LightPanel>
-
-                    <LightPanel>
-                        <FeaturedArticles />
-                    </LightPanel>
+                    <AboutMe />
+                    <FeaturedArticles contentHeight={contentHeight}/>
                 </div>
-
-                
             </div>
+
             <CallToScroll direction='row' nextSection='contactSection'> 
                 <p>Get In Touch</p>
             </CallToScroll>
