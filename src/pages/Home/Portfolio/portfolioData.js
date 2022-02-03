@@ -28,7 +28,7 @@ const portfolioData = [
         text: [
             "Maxwell Mysteires is a five-star rated series of play-at-home puzzle games which utilise both printed and on-screen elements to provide 2+ hours of themed puzzling content, centred around the story of a 1930s private investigator. In each game the story unfolds over 5 levels and player progress is saved to the database at the end of each level.",
 
-            "Each game was bootstrapped using Create React App with custom CSS. It also uses React specific packages such as React Router and react-use-audio-player, which I chose for my previous experience with howler.js",
+            "Each game was built using Create React App with custom CSS. It also uses React specific packages such as React Router and react-use-audio-player, which I chose for my previous experience with howler.js",
 
             "Both 'The Disappearing Diamond' and 'The Kidnapped Professor' can be purchased from Paradox Parlours Escape Rooms. For this reason the code for the full games are private but I have linked here a short demo level and published the code on Git Hub."
         ],
@@ -188,7 +188,7 @@ const portfolioData = [
         text: [
             'A portfolio site to show off my favourite projects and aid with my frontend devlopment job search.',
             
-            'I bootstrapped this site using Create React App, with custom CSS, and incorporated React Router for page routing. The contact form uses Netlify Forms to screen out spam and notify me of new submissions.',
+            'I built this site using Create React App, with custom CSS, and incorporated React Router for page routing. The contact form uses Netlify Forms to screen out spam and notify me of new submissions.',
 
             'This is my first project to include unit testing and I am currently working to improve the code coverage of my tests.'
         ],
