@@ -14,13 +14,15 @@ import codePortfolio1 from '../../../assets/images/jpg/codePortfolio1.jpg'
 import codePortfolio2 from '../../../assets/images/jpg/codePortfolio2.jpg'
 import codePortfolio3 from '../../../assets/images/jpg/codePortfolio3.jpg'
 
+import floridaTravel1 from '../../../assets/images/jpg/floridaTravel1.jpg'
+
 // import metricClock1 from '../../../assets/images/jpg/metricClock1.jpg'
 // import metricClock2 from '../../../assets/images/jpg/metricClock2.jpg'
 // import metricClock3 from '../../../assets/images/jpg/metricClock3.jpg'
 
 // const placeholder1 = 'https://picsum.photos/200/300'
-// const placeholder2 = 'https://picsum.photos/400/200'
-// const placeholder3 = 'https://picsum.photos/500/500'
+const placeholder2 = 'https://picsum.photos/400/200'
+const placeholder3 = 'https://picsum.photos/500/500'
 
 const portfolioData = [
     {
@@ -181,6 +183,56 @@ const portfolioData = [
         links: {
             site: 'https://escaperadio.netlify.app/',
             code: 'https://github.com/ollieChurch/escapeRadio'
+        }
+    },
+    {
+        name: 'Orlando Travel Club',
+        text: [
+            "The Orlando Travel Club is a website designed to give people the information needed to budget and plan their first holiday to Florida in the USA. Information will include flights, accommodation and entertainment, mostly focussed on the theme parks.",
+
+            "I started this project when my friend announced she intended to get married in Florida, and the news created some anxieties within the family as to the complexities of planning a trip. It worked well as I had been looking for something fairly low in complexity as a starting point to play with Material UI.",
+
+            "This project is still a work in progress and continues to develop. It is built with React."
+        ],
+        images: [
+            {
+                src: floridaTravel1,
+                alt: 'a screenshot of the Orlando Travel Club homepage'
+            },
+            {
+                src: placeholder2,
+                alt: ''
+            },
+            {
+                src: placeholder3,
+                alt: ''
+            }
+        ],
+        tags: [
+            {
+                text: 'React',
+                symbol: 'fab fa-react'
+            },
+            {
+                text: 'CSS',
+                symbol: 'fab fa-css3-alt'
+            },
+            {
+                text: 'Material UI',
+                symbol: 'fas fa-exchange-alt'
+            },
+            {
+                text: 'React Router',
+                symbol: 'fas fa-route'
+            },
+            {
+                text: 'Work In Progress',
+                symbol: 'fas fa-check-square'
+            }
+        ],
+        links: {
+            site: 'https://OrlandoTravelClub.netlify.app', 
+            code: 'https://github.com/ollieChurch/floridaTravel'
         }
     },
     {
