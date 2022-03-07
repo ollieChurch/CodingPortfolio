@@ -1,13 +1,13 @@
 .portfolioCards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(425px, 1fr));
     grid-gap: 1em;
     grid-auto-rows: fit-content;
 }
 
 .projectCard-container {
     width: 100%;
-    border-top: var(--pink) 8px solid;
+    /* outline: 2px solid red; */
     padding-bottom: 0;
     display: flex;
     flex-direction: column;
@@ -15,6 +15,7 @@
     align-items: center;
     box-shadow: 1px 1px 10px black;
     margin-bottom: 1em;
+    border-top: var(--pink) 8px solid;
 }
 
 .projectCard-header,

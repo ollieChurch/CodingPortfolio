@@ -1,7 +1,7 @@
 .lightPanel {
     background-color: rgba(240, 245, 235, 1);
     padding: 2em;
-    border: 1px solid gray;
+    /* border: 1px solid gray; */
     border-radius: 10px;
     box-shadow: 1px 1px 10px black;
 }
