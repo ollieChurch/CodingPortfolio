@@ -5,7 +5,6 @@ import useWindowSize from '../../../hooks/useWindowSize'
 
 import GreetingRoute from '../../../assets/images/svg/GreetingRoute'
 import CallToScroll from '../../../components/CallToScroll'
-import LightPanel from '../../../components/LightPanel'
 import AboutMe from './AboutMe'
 import FeaturedArticles from './FeaturedArticles'
 
