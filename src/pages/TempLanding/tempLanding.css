@@ -5,6 +5,7 @@
     justify-content: space-around;
     position: relative;
     min-height: 100vh;
+    max-width: 100vw;
 }
 
 .greeting-content {
@@ -19,7 +20,8 @@
 }
 
 .greeting-textContainer {
-    margin-left: -10%;
+    margin-left: -15%;
+    max-width: 40%;
 }
 
 .greeting-title {
@@ -92,6 +94,7 @@
 
 .greeting-para {
     max-width: 700px;
+    width: 100%;
     padding: 0 1em 0 0;
 
 }
@@ -107,6 +110,7 @@
 
     .greeting-textContainer {
         margin-left: 0;
+        max-width: 100vw;
         text-align: center;
         display: flex;
         flex-direction: column;

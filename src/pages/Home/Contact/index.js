@@ -1,8 +1,9 @@
-import { useEffect, useState } from 'react'
+// import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import './contact.css'
 // import cv from '../../../assets/files/ollieChurchCV.pdf'
 
-import useWindowSize from '../../../hooks/useWindowSize'
+// import useWindowSize from '../../../hooks/useWindowSize'
 
 // import CallToScroll from '../../../components/CallToScroll'
 import LightPanel from '../../../components/LightPanel'
@@ -12,7 +13,7 @@ import ContactSuccess from './ContactSuccess'
 function Contact() {
     const [formSubmitted, setFormSubmitted] = useState(false)
     // const [useCallToScroll, setUseCallToScroll] = useState(true)
-    const { windowSize } = useWindowSize()
+    // const { windowSize } = useWindowSize()
     // const linksArr = [
     //     {
     //         text: 'CV',
